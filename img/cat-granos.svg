@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#f6ecd2"/>
+  <ellipse cx="200" cy="250" rx="150" ry="16" fill="#e6d7ae"/>
+  <!-- choclo -->
+  <path d="M120 236c-30-50-22-120 22-170 44 50 52 120 22 170z" fill="#f2c230" stroke="#143918" stroke-width="6" stroke-linejoin="round"/>
+  <g stroke="#c98f1c" stroke-width="4" fill="none">
+    <path d="M142 80v150M124 110c12 6 24 6 36 0M116 150c18 8 34 8 52 0M116 190c18 8 34 8 52 0"/>
+  </g>
+  <path d="M96 244c-22-34-20-78 4-112 8 44 22 80 42 112zM188 244c22-34 20-78-4-112-8 44-22 80-42 112z" fill="#318529" stroke="#143918" stroke-width="6" stroke-linejoin="round"/>
+  <!-- papas -->
+  <ellipse cx="262" cy="212" rx="50" ry="36" fill="#b9814a" stroke="#143918" stroke-width="6" transform="rotate(-12 262 212)"/>
+  <ellipse cx="318" cy="226" rx="34" ry="24" fill="#8a4f7d" stroke="#143918" stroke-width="6" transform="rotate(14 318 226)"/>
+  <g fill="#143918" opacity=".45">
+    <circle cx="244" cy="204" r="4"/><circle cx="276" cy="222" r="4"/><circle cx="268" cy="194" r="3"/>
+    <circle cx="310" cy="222" r="3"/><circle cx="328" cy="232" r="3"/>
+  </g>
+</svg>

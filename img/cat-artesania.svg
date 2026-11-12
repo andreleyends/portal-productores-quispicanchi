@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#f7e3dc"/>
+  <!-- tejido colgado -->
+  <rect x="60" y="48" width="280" height="10" rx="5" fill="#143918"/>
+  <rect x="84" y="58" width="232" height="176" fill="#b3261e" stroke="#143918" stroke-width="6"/>
+  <rect x="84" y="84" width="232" height="18" fill="#143918"/>
+  <rect x="84" y="102" width="232" height="14" fill="#e0a526"/>
+  <rect x="84" y="176" width="232" height="14" fill="#e0a526"/>
+  <rect x="84" y="190" width="232" height="18" fill="#143918"/>
+  <g fill="#faf3e7" stroke="#143918" stroke-width="4" stroke-linejoin="round">
+    <path d="m124 146 22-22 22 22-22 22zM178 146l22-22 22 22-22 22zM232 146l22-22 22 22-22 22z"/>
+  </g>
+  <g fill="#318529">
+    <path d="m136 146 10-10 10 10-10 10zM190 146l10-10 10 10-10 10zM244 146l10-10 10 10-10 10z"/>
+  </g>
+  <rect x="84" y="58" width="232" height="176" fill="none" stroke="#143918" stroke-width="6"/>
+  <g stroke="#143918" stroke-width="5" stroke-linecap="round">
+    <path d="M96 236v22M118 236v22M140 236v22M162 236v22M184 236v22M206 236v22M228 236v22M250 236v22M272 236v22M294 236v22"/>
+  </g>
+</svg>

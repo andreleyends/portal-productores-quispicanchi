@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Productores de Quispicanchi · Catálogo de productos</title>
+  <meta name="description" content="Catálogo de productos de las familias y asociaciones productoras de la provincia de Quispicanchi, Cusco. Conoce a los productores y haz tu pedido por WhatsApp.">
+  <meta name="theme-color" content="#143918">
+  <meta property="og:title" content="Productores de Quispicanchi">
+  <meta property="og:description" content="Productos de nuestra tierra, directo de quien los produce. Mira el catálogo y pide por WhatsApp.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_PE">
+  <link rel="icon" type="image/svg+xml" href="img/icono.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+
+  <p class="aviso-demo" id="aviso-demo" hidden>
+    <strong>Sitio de demostración.</strong> Los productores, precios y productos que ves son ejemplos.
+  </p>
+
+  <header class="cabecera">
+    <div class="contenedor cabecera__fila">
+      <a class="marca" href="#/" aria-label="Productores de Quispicanchi, ir al inicio">
+        <svg class="marca__icono" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+          <circle cx="24" cy="24" r="23" fill="#faf3e7"/>
+          <path d="M5 33 17 17l7 9 6-8 13 15z" fill="#318529"/>
+          <path d="m17 17 3.5 4.5-3 1.5-3.2-1.6z" fill="#fff"/>
+          <circle cx="35" cy="12" r="4" fill="#e0a526"/>
+          <path d="M5 33h38a23 23 0 0 1-38 0z" fill="#143918"/>
+        </svg>
+        <span class="marca__texto">Productores <span>de Quispicanchi</span></span>
+      </a>
+
+      <button class="boton-letra" id="boton-letra" type="button" aria-pressed="false">
+        <span class="boton-letra__a" aria-hidden="true">A+</span>
+        <span id="boton-letra-texto">Letra grande</span>
+      </button>
+
+      <nav class="menu" aria-label="Menú principal">
+        <ul>
+          <li><a href="#/" data-seccion="inicio">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 11 12 3l9 8v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg>
+            <span>Inicio</span></a></li>
+          <li><a href="#/catalogo" data-seccion="catalogo">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 4h7v7H4zm9 0h7v7h-7zM4 13h7v7H4zm9 0h7v7h-7z"/></svg>
+            <span>Catálogo</span></a></li>
+          <li><a href="#/productores" data-seccion="productores">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm8.5 0a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zM1 20c0-3.3 3.1-6 7-6s7 2.700 7 6v1H1zm15.800 1v-1c0-1.800-.700-3.400-1.800-4.700.500-.2 1-.3 1.500-.3 3.600 0 6.500 2.200 6.500 5v1z"/></svg>
+            <span>Productores</span></a></li>
+          <li><a href="#/inscripcion" data-seccion="inscripcion" class="menu__resaltado">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4z"/></svg>
+            <span>Quiero aparecer</span></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido" tabindex="-1">
+    <noscript>
+      <div class="contenedor seccion">
+        <h1>Productores de Quispicanchi</h1>
+        <p>Para ver el catálogo necesitas activar JavaScript en tu navegador.</p>
+      </div>
+    </noscript>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor pie__fila">
+      <div>
+        <p class="pie__titulo">Productores de Quispicanchi</p>
+        <p>Catálogo de productos de familias y asociaciones de la provincia de Quispicanchi, Cusco, Perú.</p>
+      </div>
+      <div>
+        <p class="pie__titulo">Enlaces</p>
+        <ul class="pie__lista">
+          <li><a href="#/catalogo">Ver el catálogo</a></li>
+          <li><a href="#/productores">Conocer a los productores</a></li>
+          <li><a href="#/inscripcion">Quiero aparecer en el catálogo</a></li>
+          <li><a href="https://www.ccaijo.org.pe/" target="_blank" rel="noopener">Sitio web de CCAIJO (se abre en otra ventana)</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="contenedor pie__nota">Los precios son referenciales. Cada pedido se coordina directamente con el productor.</p>
+  </footer>
+
+  <div class="mensaje-flotante" id="mensaje-flotante" role="status" aria-live="polite"></div>
+
+  <script src="js/datos.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

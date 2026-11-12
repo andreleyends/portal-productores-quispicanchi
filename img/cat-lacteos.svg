@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#e8f0f4"/>
+  <ellipse cx="200" cy="248" rx="150" ry="16" fill="#cfdbe2"/>
+  <!-- jarra de leche -->
+  <path d="M92 110h66v22l14 22v82a12 12 0 0 1-12 12H90a12 12 0 0 1-12-12v-82l14-22z" fill="#fff" stroke="#143918" stroke-width="6" stroke-linejoin="round"/>
+  <rect x="88" y="94" width="74" height="18" rx="6" fill="#318529" stroke="#143918" stroke-width="6"/>
+  <path d="M81 190h88v46a9 9 0 0 1-9 9H90a9 9 0 0 1-9-9z" fill="#dcecf5"/>
+  <!-- queso -->
+  <path d="M190 200 318 150l22 50z" fill="#f3c94a" stroke="#143918" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M190 200h150v38a10 10 0 0 1-10 10H200a10 10 0 0 1-10-10z" fill="#e9b22f" stroke="#143918" stroke-width="6" stroke-linejoin="round"/>
+  <circle cx="226" cy="224" r="9" fill="#c98f1c"/>
+  <circle cx="270" cy="230" r="6" fill="#c98f1c"/>
+  <circle cx="308" cy="218" r="10" fill="#c98f1c"/>
+  <circle cx="290" cy="182" r="6" fill="#e0a526"/>
+</svg>

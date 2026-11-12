@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#fbefc9"/>
+  <g fill="none" stroke="#efd58a" stroke-width="5">
+    <path d="m40 60 26-15 26 15v30l-26 15-26-15zM92 150l26-15 26 15v30l-26 15-26-15zM40 150l-26 15M300 50l26-15 26 15v30l-26 15-26-15zM352 80l26 15v30l-26 15"/>
+  </g>
+  <ellipse cx="200" cy="252" rx="110" ry="14" fill="#ecd590"/>
+  <!-- frasco -->
+  <path d="M140 110h120c14 10 22 26 22 46v70a22 22 0 0 1-22 22H140a22 22 0 0 1-22-22v-70c0-20 8-36 22-46z" fill="#e9a21f" stroke="#143918" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M132 150c0-10 4-20 10-26h30c-10 12-14 24-14 40v60h-26z" fill="#f6c64f" opacity=".7"/>
+  <rect x="134" y="80" width="132" height="32" rx="8" fill="#318529" stroke="#143918" stroke-width="6"/>
+  <rect x="150" y="160" width="100" height="56" rx="8" fill="#faf3e7" stroke="#143918" stroke-width="5"/>
+  <!-- abeja en la etiqueta -->
+  <ellipse cx="200" cy="190" rx="20" ry="13" fill="#f2c230" stroke="#143918" stroke-width="4"/>
+  <path d="M194 178v24M206 178v24" stroke="#143918" stroke-width="5"/>
+  <ellipse cx="192" cy="172" rx="9" ry="6" fill="#fff" stroke="#143918" stroke-width="3" transform="rotate(-25 192 172)"/>
+  <ellipse cx="208" cy="172" rx="9" ry="6" fill="#fff" stroke="#143918" stroke-width="3" transform="rotate(25 208 172)"/>
+</svg>

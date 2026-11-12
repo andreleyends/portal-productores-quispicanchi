@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 400">
+  <rect width="520" height="400" fill="#faf3e7"/>
+  <circle cx="400" cy="92" r="38" fill="#e0a526"/>
+  <!-- nevado y cerros -->
+  <path d="M0 250 120 96l70 86 60-70 130 138z" fill="#6e7a4b"/>
+  <path d="m120 96 34 42-28 14-32-16z" fill="#fff"/>
+  <path d="m250 112 26 28-22 10-24-14z" fill="#fff"/>
+  <path d="M220 260 380 130l140 120v30H220z" fill="#318529"/>
+  <path d="M0 250c90-30 170-30 260 0s170 30 260 0v150H0z" fill="#68c47b"/>
+  <!-- chacras -->
+  <path d="M0 300c100-24 200-24 300 4s150 24 220 8v88H0z" fill="#318529"/>
+  <g stroke="#143918" stroke-width="4" opacity=".35" fill="none">
+    <path d="M20 330c80-18 160-18 240 0M10 356c90-18 180-18 270 2M0 384c100-18 200-16 300 4"/>
+  </g>
+  <path d="M300 320c70 16 150 18 220 0v80H300z" fill="#e0a526"/>
+  <g stroke="#143918" stroke-width="4" opacity=".3">
+    <path d="M330 336v60M370 340v56M410 342v54M450 340v56M490 334v62"/>
+  </g>
+  <!-- casita -->
+  <path d="M96 268h76v52H96z" fill="#f1e6d2" stroke="#143918" stroke-width="5"/>
+  <path d="m84 270 50-36 50 36z" fill="#b3261e" stroke="#143918" stroke-width="5" stroke-linejoin="round"/>
+  <rect x="124" y="288" width="20" height="32" fill="#143918"/>
+</svg>

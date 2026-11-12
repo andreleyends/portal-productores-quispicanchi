@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#eaf3d9"/>
+  <ellipse cx="200" cy="250" rx="150" ry="16" fill="#d3e3b5"/>
+  <!-- lechuga -->
+  <g stroke="#143918" stroke-width="6" stroke-linejoin="round">
+    <path d="M70 226c-20-50 4-104 60-116 56 12 80 66 60 116z" fill="#318529"/>
+    <path d="M92 230c-10-40 6-76 38-90 32 14 48 50 38 90z" fill="#68c47b"/>
+    <path d="M112 232c-4-26 4-48 18-62 14 14 22 36 18 62z" fill="#b6e3a4"/>
+  </g>
+  <!-- zanahorias -->
+  <g stroke="#143918" stroke-width="6" stroke-linejoin="round">
+    <path d="M232 132c20-8 42 0 48 18l-28 98c-2 6-10 6-12 0z" fill="#ee8a2b" transform="rotate(-8 256 190)"/>
+    <path d="M292 142c18-6 38 2 42 18l-26 86c-2 6-10 6-12 0z" fill="#f2a03d" transform="rotate(10 314 196)"/>
+  </g>
+  <g stroke="#318529" stroke-width="7" stroke-linecap="round" fill="none">
+    <path d="M250 130c-6-22-4-40 4-56M250 130c2-20 10-34 24-44M250 130c-12-14-24-20-38-22"/>
+    <path d="M320 138c0-22 4-38 14-52M320 138c8-16 20-26 34-30M320 138c-8-16-18-26-30-30"/>
+  </g>
+  <g stroke="#b9621a" stroke-width="3" stroke-linecap="round">
+    <path d="M240 166h14M246 190h12M300 172h12M304 196h10"/>
+  </g>
+</svg>
